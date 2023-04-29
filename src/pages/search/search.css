@@ -1,0 +1,26 @@
+.searcbox{
+    display: flex;
+    justify-content: center;
+    margin: 1% auto;
+    flex: 1 1 0;
+}
+.searchbox.input{
+    display: inline-block;
+    height: 60px;
+    width: 100px;
+}
+
+.movie__list {
+    padding: 0 3rem 3rem 3rem;
+}
+
+.list__title {
+font-size: 1.75rem;
+margin:  2.5rem;
+}
+
+.list__cards {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}

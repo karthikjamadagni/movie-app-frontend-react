@@ -1,0 +1,101 @@
+.footer {
+    margin-top: 20px;
+    background-color: #141414;
+}
+
+.footer__top {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ftr-btn {
+    margin-top: 20px;
+    background-color: #f5c518;
+    font-weight: 800;
+    border-radius: 3px;
+    width: 200px;
+    border: none;
+    height: 50px;
+    transition: transform 100ms ease-in;
+    font-size: 14px;
+}
+
+.ftr-btn:hover {
+    cursor: pointer;
+    transform: scale(1.07);
+}
+
+.icons {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+.ic {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.footer__middle {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+.middle__top {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+
+
+.middle__top>h4 {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 5px;
+}
+
+.middle__top>h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.middle__bottom {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.middle__bottom>h4 {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 5px;
+}
+
+.middle__bottom>h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer__bottom {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}

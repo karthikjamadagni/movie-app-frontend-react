@@ -1,0 +1,19 @@
+.searcbox{
+    margin: 1% auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.searcbox input{
+    width: 60%;
+    display: inline-block;
+    height: 30px;
+    background-color: #141414;
+    color: white;
+    outline: none;
+    border: none;
+    text-align: center;
+    
+    
+}

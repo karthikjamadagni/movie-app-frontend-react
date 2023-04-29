@@ -1,0 +1,15 @@
+.favorite-heading{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.req{
+
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    margin-left: 560px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}

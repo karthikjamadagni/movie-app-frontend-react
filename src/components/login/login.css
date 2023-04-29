@@ -1,0 +1,200 @@
+/* .wrapper{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    
+}
+
+.login {
+    width: 400px;
+    color: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.login > input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+.login > .button {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+} */
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}
+
+.new-btn{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    margin: 20px auto;
+    background: linear-gradient(to right, purple, black);
+    outline: none;
+    border: 0;
+    border-radius: 25px;
+}
+
+.new-btn:hover{
+    cursor: pointer;
+}
+*/
+
+
+
+*{
+    color: white
+}
+
+
+.hero{
+
+    height: 100%;
+    width: 100%;
+    background-image: url('https://img.freepik.com/free-vector/movie-theater-hall-with-seat-rows-audience-cinema-projector_107791-4935.jpg?w=826&t=st=1676906187~exp=1676906787~hmac=7c9aaa100c7226f7406101064d7f38d993a0e3b5e30d32d35eafeb45e8d30701');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.form-box{
+    width: 380px;
+    height: 380px;
+    position: relative;
+    margin: 6% auto;
+    background: linear-gradient(to right, #222831, #00ADB5);
+    padding: 4px;
+    overflow: hidden;
+}
+
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 90%;
+    position: relative;
+    outline: none;
+    background: transparent;
+}
+
+#btn{
+    top: 0;
+    left: 90;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.input-group{
+    top: 100px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    color: white;
+    margin-left: 40px;
+}
+
+
+.submit-btn{
+    width: 80%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 40px auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    outline: none;
+    border: 0;
+    border-radius: 30px;
+    margin-top: 30px;
+    position: relative;
+    margin-left: 60px;
+}
+
+.new-btn{
+
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    margin: 0 35px;
+    background: linear-gradient(to right, purple, black);
+    outline: none;
+    border: 0;
+    border-radius: 25px;
+    position: relative;
+    bottom: 25px;
+}
+
+.new-btn:hover{
+    cursor: pointer;
+}
